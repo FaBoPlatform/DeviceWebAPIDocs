@@ -1,0 +1,23 @@
+# LEDの操作
+
+## LEDの操作
+
+|操作|Endpoint|メソッド|
+|:--|:--|:--|
+|LEDの状態の取得|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
+|LEDの状態の変更|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|POST|
+|LEDの点灯|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|PUT|
+|LEDの消灯|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|DELETE|
+
+
+## LEDを点灯する
+
+D2にFaBo LED Brickを接続します。
+
+メモしていたIPアドレスをここから使用します。IPアドレスを自分の環境になおして呼び出しをおこないます。
+
+ブラウザーのアドレスバーに、下記Endpointを入力します。
+
+```javascript
+http://192.168.0.10:4035/gotapi/put/gpio/digital/D2?serviceId=#########
+```
