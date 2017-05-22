@@ -4,10 +4,10 @@
 
 |操作|Endpoint|メソッド|
 |:--|:--|:--|
-|LEDの状態の取得|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
 |LEDの状態の変更|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|POST|
 |LEDの点灯|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|PUT|
 |LEDの消灯|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|DELETE|
+|LEDの状態の取得|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
 
 ## LEDを点灯する
 
