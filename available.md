@@ -6,4 +6,4 @@
 http://192.168.0.10:4035/gotapi/availability
 ```
 
-![]("/img/available001.png")
+![](/img/available001.png)
