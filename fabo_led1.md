@@ -1,4 +1,4 @@
-# LEDの操作
+# LEDの操作(アドレスバー)
 
 ## LEDの操作
 
@@ -21,3 +21,32 @@ D2にFaBo LED Brickを接続します。
 ```javascript
 http://192.168.0.10:4035/gotapi/put/gpio/digital/D2?serviceId=#########
 ```
+
+## LEDを消灯する
+
+ブラウザーのアドレスバーに、下記Endpointを入力します。
+
+```javascript
+http://192.168.0.10:4035/gotapi/delete/gpio/digital/D2?serviceId=#########
+```
+
+## LEDの状態を変える
+
+ブラウザーのアドレスバーに、下記Endpointを入力します。
+
+点灯
+```javascript
+http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#########&value=1
+```
+
+消灯
+```javascript
+http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#########&value=0
+```
+
+## LEDの状態を取得する
+
+```javascript
+http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#########
+```
+
