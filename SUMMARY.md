@@ -13,4 +13,6 @@
 * Host基礎
 	* [HostのServiceIdの取得](host_serviceid.md)
 	* [写真を撮影する](host_takepic.md)
+* Firmata
+	* [Firmataのインストール](firmata.md)
 
