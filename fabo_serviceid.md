@@ -6,6 +6,9 @@ DeviceWebAPI Managerでは、対象とするプラグインにアクセスする
 
 ServiceDiscoveryで対象プラグインのServiceIdを取得します。
 
+![](/img/service001.png)
+
+
 ```javascript
 http://192.168.2.105:4035/gotapi/serviceDiscovery
 ```
