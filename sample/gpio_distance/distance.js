@@ -1,5 +1,5 @@
 var serviceId="gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
-var ip = "192.168.0.15";
+var ip = "192.168.0.59";
 
 function distance() {
     var valueElement = document.getElementById("value");

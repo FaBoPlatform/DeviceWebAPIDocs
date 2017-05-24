@@ -4,10 +4,19 @@
 
 |操作|Endpoint|メソッド|
 |:--|:--|:--|
-|LEDの状態の変更|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|POST|
-|LEDの点灯|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|PUT|
-|LEDの消灯|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|DELETE|
-|LEDの状態の取得|http://$IP:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
+|LEDの状態の変更|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|POST|
+|LEDの点灯|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|PUT|
+|LEDの消灯|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|DELETE|
+|LEDの状態の取得|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
+
+## URLによる擬似的なRESTFUL
+
+|操作|Endpoint|メソッド|
+|:--|:--|:--|
+|LEDの状態の変更|http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#####&value=1|POST|
+|LEDの点灯|http://192.168.0.10:4035/gotapi/gpio/put/digital/D2?serviceId=#####|PUT|
+|LEDの消灯|http://192.168.0.10:4035/gotapi/gpio/delete/digital/D2?serviceId=#####|DELETE|
+|LEDの状態の取得|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
 
 
 ## LEDを点灯する

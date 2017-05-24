@@ -1,5 +1,5 @@
 var serviceId="Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
-var ip = "192.168.0.15";
+var ip = "192.168.0.59";
 
 function preview() {
   var imageElement = document.getElementById("image");

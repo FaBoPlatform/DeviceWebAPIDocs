@@ -1,0 +1,14 @@
+<html>
+  <head>
+	<title>LED</title>
+	<script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
+	<script src="led4.js" type="text/javascript"></script>
+  </head>
+  <body>
+    	<input type="button" value="LEDを点灯" onclick="LEDOn();"/><br />
+        <input type="button" value="LEDを消灯" onclick="LEDOff();"/><br />
+        <input type="button" value="LEDを点灯" onclick="LEDChange(1);"/><br />
+      	<input type="button" value="LEDを消灯" onclick="LEDChange(0);"/><br />
+        <input type="button" value="LEDの状態を取得" onclick="LEDStatus();"/><br />
+  </body>
+</html>
