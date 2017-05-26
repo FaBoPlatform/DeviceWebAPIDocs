@@ -14,6 +14,7 @@
 	* [距離を取得](fabo_distance.md)
 * Host基礎
 	* [HostのServiceIdの取得](host_serviceid.md)
+	* [バイブレーション](host_vibration.md)
 	* [写真を撮影する](host_takepic.md)
 	* [プレビューを開始](host_preview.md)
 * Firmata
