@@ -6,6 +6,7 @@
     * [FaBo Pluginの設定](fabo.md)
     * [FaBo Pluginの利用許可](permission.md)
     * [DeviceWebAPI Managerの生存確認](available.md)
+    * [USBデバイスの認識](usbdevice.md)
 * FaBo基礎
 	* [ServiceIdの取得](fabo_serviceid.md)
 	* [LEDの操作(アドレスバー)](fabo_led1.md)
