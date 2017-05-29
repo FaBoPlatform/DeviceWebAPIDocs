@@ -4,7 +4,8 @@
 
 |操作|Endpoint|メソッド|
 |:--|:--|:--|
-|写真の撮影| http://IP:4035/gotapi/mediaStreaming/preview?serviceId=##### | PUT |
+|プレビューの開始| http://IP:4035/gotapi/mediaStreaming/preview?serviceId=##### | PUT |
+|プレビューの終了| http://IP:4035/gotapi/mediaStreaming/preview?serviceId=##### | DELETE |
 
 ## TakePhoto
 
@@ -18,7 +19,8 @@ photo.html
     <script src="preview.js" type="text/javascript"></script>
   </head>
   <body>
-        <input type="button" value="プレビューを開始" onclick="preview();"/><br />
+        <input type="button" value="プレビューを開始" onclick="preview_start();"/><br />
+        <input type="button" value="プレビューを終了" onclick="preview_stop();"/><br />
         <img id="image" width="500"/>
   </body>
 </html>
@@ -27,34 +29,43 @@ photo.html
 photo.js
 
 ```javascript
-var serviceId="############################################";
-var ip = "###.###.##.##";
+function preview_start() {
+    var imageElement = document.getElementById("image");
+    var uri = "http://192.168.0.15:4035/gotapi/mediastreamRecording/preview?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
 
-function preview() {
-  var imageElement = document.getElementById("image");
-
-  dConnect.setHost(ip);
-
-  var builder = new dConnect.URIBuilder();
-    builder.setProfile("mediastreamRecording");
-    builder.setAttribute("preview");
-    builder.setServiceId(serviceId);
-
-    var uri = builder.build();
-    
-    dConnect.put(uri, null, null, function(json) {
+    var header = null;
+    var data = null;
+    dConnect.put(uri, header, data, function(json) {
         if (json.result == 0) {
             var uri = json.uri
-            uri = uri.replace(/localhost/g , ip);
             imageElement.src = uri;
-            //alert(uri);
+            console.log(uri);
         } else {
-            alert(json.result);
+            console.log(json.result);
         }
 
     }, function(errorCode, errorMessage) {
-        alert(errorMessage);
+        console.log(errorMessage);
     });
 }
 
+function preview_stop() {
+    var imageElement = document.getElementById("image");
+    var uri = "http://192.168.0.15:4035/gotapi/mediastreamRecording/preview?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
+
+    var header = null;
+    var data = null;
+    dConnect.delete(uri, header, data, function(json) {
+        if (json.result == 0) {
+            var uri = json.uri
+            imageElement.src = uri;
+            console.log(uri);
+        } else {
+            console.log(json.result);
+        }
+
+    }, function(errorCode, errorMessage) {
+        console.log(errorMessage);
+    });
+}
 ```

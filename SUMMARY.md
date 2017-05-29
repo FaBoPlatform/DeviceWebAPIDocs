@@ -19,6 +19,9 @@
 	* [バイブレーション](host_vibration.md)
 	* [写真を撮影する](host_takepic.md)
 	* [プレビューを開始](host_preview.md)
+* Robotを操作する
+	* [Robot操作の基礎](robot_basic.md)
+	* [Robot操作のサンプル](robot_sample.md)
 * Firmata
 	* [Firmataのインストール](firmata.md)
 
