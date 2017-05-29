@@ -37,7 +37,7 @@ var ip = "192.168.0.59";
 function LEDOn() {
   dConnect.setHost(ip);
 
-  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
   var header = null;
   var data = null;
   dConnect.put(uri, header, data, function(json) {
