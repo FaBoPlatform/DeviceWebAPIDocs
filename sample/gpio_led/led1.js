@@ -1,5 +1,5 @@
 var serviceId="gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
-var ip = "192.168.0.59";
+var ip = "192.168.0.15";
 
 function LEDOn() {
   dConnect.setHost(ip);
@@ -13,7 +13,7 @@ function LEDOn() {
 
   var header = null;
   var data = null;
-  dConnect.put(uri, header, data, function(json) {
+  dConnect.put(uri, header, function(json) {
     console.log(json);
   }, function(errorCode, errorMessage) {
     console.log(errorMessage);

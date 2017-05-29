@@ -8,11 +8,11 @@
     * [DeviceWebAPI Managerの生存確認](available.md)
     * [USBデバイスの認識](usbdevice.md)
 * FaBo基礎
+	* [サンプルのダウンロード](sample.md)
 	* [dConnect-SDK.jsのダウンロード](sdk.md)
 	* [ServiceIdの取得](fabo_serviceid.md)
 	* [LEDの操作(アドレスバー)](fabo_led1.md)
 	* [LEDの操作(プログラム)](fabo_led2.md)
-	* [Buttonからイベントの取得](fabo_button.md)
 	* [距離を取得](fabo_distance.md)
 * Host基礎
 	* [HostのServiceIdの取得](host_serviceid.md)
