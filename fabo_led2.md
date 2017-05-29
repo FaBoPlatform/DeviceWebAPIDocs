@@ -37,13 +37,7 @@ var ip = "192.168.0.59";
 function LEDOn() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
-
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId
   var header = null;
   var data = null;
   dConnect.put(uri, header, data, function(json) {
@@ -83,12 +77,7 @@ var ip = "192.168.0.59";
 function LEDOn() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   var data = null;
@@ -102,12 +91,7 @@ function LEDOn() {
 function LEDOff() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   dConnect.delete(uri, header, function(json) {
@@ -149,12 +133,7 @@ var ip = "192.168.0.59";
 function LEDOn() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   var data = null;
@@ -168,12 +147,7 @@ function LEDOn() {
 function LEDOff() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   dConnect.delete(uri, header, function(json) {
@@ -186,12 +160,7 @@ function LEDOff() {
 function LEDChange(value) {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   var data = "value="+value;
@@ -235,12 +204,7 @@ var ip = "192.168.0.59";
 function LEDOn() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   var data = null;
@@ -254,12 +218,7 @@ function LEDOn() {
 function LEDOff() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   dConnect.delete(uri, header, function(json) {
@@ -272,12 +231,7 @@ function LEDOff() {
 function LEDChange(value) {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   var data = "value="+value;
@@ -291,12 +245,7 @@ function LEDChange(value) {
 function LEDStatus() {
   dConnect.setHost(ip);
 
-  var builder = new dConnect.URIBuilder();
-  builder.setProfile("gpio");
-  builder.setInterface("digital");
-  builder.setAttribute("D2");
-  builder.setServiceId(serviceId);
-  var uri = builder.build();
+  var uri = "http://" + ip + ":4035/gotapi/gpio/digital/D2?serviceId=" + serviceId;
 
   var header = null;
   dConnect.get(uri, header, function(json) {

@@ -1,5 +1,6 @@
 var serviceId="Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
-var ip = "192.168.0.83";
+var ip = "192.168.0.91";
+var angle = 0;
 
 function preview() {
   var imageElement = document.getElementById("image");
@@ -30,6 +31,11 @@ function preview() {
 
 var fabo_serviceId="gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
 
+function changeAngle(mAngle) {
+    console.log(mAngle);
+    angle = mAngle;
+}
+
 function move(speed) {
   dConnect.setHost(ip);
 
@@ -39,19 +45,19 @@ function move(speed) {
     builder.setServiceId(fabo_serviceId);
 
     var uri = builder.build();
-    //alert(uri);
+    console.log(uri);
     var header = null;
     var data = "speed="+speed;
-    data += "&angle=0"
+    data += "&angle="+angle;
     dConnect.post(uri, header, data, function(json) {
         if (json.result == 0) {
             console.log(json);
         
         } else {
-            alert(json.result);
+            console.log(json.result);
         }
 
     }, function(errorCode, errorMessage) {
-        alert(errorMessage);
+        console.log(errorMessage);
     });
 }
