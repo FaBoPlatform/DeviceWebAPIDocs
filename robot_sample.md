@@ -4,11 +4,11 @@
 
 |操作|Endpoint|メソッド|
 |:--|:--|:--|
-|前進(speed=1)|http://192.168.0.15:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=0|POST|
-|更新(speed=-1)|http://192.168.0.15:4035/gotapi/post/driveController/move?serviceId=####&speed=-1&angle=0|POST|
-|停止(speed=0)|http://192.168.0.15:4035/gotapi/post/driveController/move?serviceId=####&speed=0&angle=0|POST|
-|回転(angle=360)|http://192.168.0.15:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=360|POST|
-|回転(angle=-360)|http://192.168.0.15:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=-360|POST|
+|前進(speed=1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=0|POST|
+|更新(speed=-1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=-1&angle=0|POST|
+|停止(speed=0)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=0&angle=0|POST|
+|回転(angle=360)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=360|POST|
+|回転(angle=-360)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=-360|POST|
 
 
 ## Sample
@@ -40,7 +40,7 @@ controller.html
 ```javascript
 function preview_start() {
     var imageElement = document.getElementById("image");
-    var uri = "http://192.168.0.15:4035/gotapi/mediastreamRecording/preview?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
+    var uri = "http://" + ip + ":" + port + "/gotapi/mediastreamRecording/preview?serviceId=" + hostId;
 
     var header = null;
     var data = null;
@@ -60,7 +60,7 @@ function preview_start() {
 
 function preview_stop() {
     var imageElement = document.getElementById("image");
-    var uri = "http://192.168.0.15:4035/gotapi/mediastreamRecording/preview?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
+    var uri = "http://" + ip + ":" + port + "/gotapi/mediastreamRecording/preview?serviceId=" + hostId;
 
     var header = null;
     var data = null;
@@ -85,7 +85,7 @@ function changeAngle(mAngle) {
 }
 
 function move(speed) {
-    var uri = "http://192.168.0.15:4035/gotapi/driveController/move?serviceId=gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org"
+    var uri = "http://" + ip + ":" + port + "/gotapi/driveController/move?serviceId=" + faboId;
     var header = null;
     var data = "speed="+speed;
     data += "&angle="+angle;

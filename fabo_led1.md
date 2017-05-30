@@ -4,22 +4,22 @@
 
 |操作|Endpoint|メソッド|
 |:--|:--|:--|
-|LEDの状態の変更|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|POST|
-|LEDの点灯|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|PUT|
-|LEDの消灯|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|DELETE|
-|LEDの状態の取得|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
+|LEDの状態の変更|http://IP:4035/gotapi/gpio/digital/D2?serviceId=#####|POST|
+|LEDの点灯|http://IP:4035/gotapi/gpio/digital/D2?serviceId=#####|PUT|
+|LEDの消灯|http://IP:4035/gotapi/gpio/digital/D2?serviceId=#####|DELETE|
+|LEDの状態の取得|http://IP:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
 
 ## URLによる擬似的なRESTFUL
 
 |操作|Endpoint|メソッド|
 |:--|:--|:--|
-|LEDの状態の変更|http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#####&value=1|POST|
-|LEDの点灯|http://192.168.0.10:4035/gotapi/gpio/put/digital/D2?serviceId=#####|PUT|
-|LEDの消灯|http://192.168.0.10:4035/gotapi/gpio/delete/digital/D2?serviceId=#####|DELETE|
-|LEDの状態の取得|http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
+|LEDの状態の変更|http://IP:4035/gotapi/post/gpio/digital/D2?serviceId=#####&value=1|POST|
+|LEDの点灯|http://IP:4035/gotapi/put/gpio/digital/D2?serviceId=#####|PUT|
+|LEDの消灯|http://IP:4035/gotapi/delete/gpio/digital/D2?serviceId=#####|DELETE|
+|LEDの状態の取得|http://1IP:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
 
 
-## LEDを点灯する
+## LEDを点灯する(PUT)
 
 D2にFaBo LED Brickを接続します。
 
@@ -27,35 +27,26 @@ D2にFaBo LED Brickを接続します。
 
 ブラウザーのアドレスバーに、下記Endpointを入力します。
 
-```javascript
-http://192.168.0.10:4035/gotapi/put/gpio/digital/D2?serviceId=#########
-```
+> http://192.168.0.10:4035/gotapi/put/gpio/digital/D2?serviceId=#########
 
-## LEDを消灯する
+## LEDを消灯する(DELETE)
 
 ブラウザーのアドレスバーに、下記Endpointを入力します。
 
-```javascript
-http://192.168.0.10:4035/gotapi/delete/gpio/digital/D2?serviceId=#########
-```
+> http://192.168.0.10:4035/gotapi/delete/gpio/digital/D2?serviceId=#########
 
-## LEDの状態を変える
+## LEDの状態を変える(POST)
 
 ブラウザーのアドレスバーに、下記Endpointを入力します。
 
 点灯
-```javascript
-http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#########&value=1
-```
+> http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#########&value=1
 
 消灯
-```javascript
-http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#########&value=0
-```
+> http://192.168.0.10:4035/gotapi/post/gpio/digital/D2?serviceId=#########&value=0
 
-## LEDの状態を取得する
+## LEDの状態を取得する(GET)
 
-```javascript
-http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#########
-```
+> http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#########
+
 

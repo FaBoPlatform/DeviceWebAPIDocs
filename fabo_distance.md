@@ -9,6 +9,7 @@ distance.html
   <head>
     <title>distance</title>
     <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
+    <script src="../lib/setting.js" type="text/javascript"></script>
     <script src="distance.js" type="text/javascript"></script>
   </head>
   <body>
@@ -27,8 +28,8 @@ function arduino_map(x, in_min, in_max, out_min, out_max){
 
 function distance() {
     var valueElement = document.getElementById("value");
-    var uri = "http://192.168.0.15:4035/gotapi/gpio/analog/A0?serviceId=gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
-    
+    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/analog/A0?serviceId=" + faboId;
+    console.log(uri);
     dConnect.get(uri, null, function(json) {
         console.log(json);
         if (json.result == 0) {

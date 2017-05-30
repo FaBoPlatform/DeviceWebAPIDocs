@@ -6,20 +6,21 @@
 |:--|:--|:--|
 |バイブレーション| http://IP:4035/gotapi/vibration/vibrate?serviceId=##### | PUT |
 
-## ブラウザーからの起動
+## ブラウザーからの起動(PUT)
 
 > http://192.168.0.15:4035/gotapi/put/vibration/vibrate?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org
 
 ## サンプル
 
-vibration.html
+vibration1.html
 
-```javascript
+```html
 <html>
   <head>
     <title>Vibration</title>
     <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
-    <script src="vibration.js" type="text/javascript"></script>
+    <script src="../lib/setting.js" type="text/javascript"></script>
+    <script src="vibration1.js" type="text/javascript"></script>
   </head>
   <body>
         <input type="button" value="バイブレーションを振動" onclick="vibration();"/><br />
@@ -27,31 +28,46 @@ vibration.html
 </html>
 ```
 
-vibration.js
+vibration1.js
 
 ```javascript
 function vibration() {
 
-    var uri = "http://192.168.0.15:4035/gotapi/vibration/vibrate?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
+    var uri = "http://" + ip + ":" + port + "/gotapi/vibration/vibrate?serviceId=" + hostId;
     var header = null;
     var data = null;
     dConnect.put(uri, header, data, function(json) {
         console.log(json);
     }, function(errorCode, errorMessage) {
-        alert(errorMessage);
+        console.log(errorMessage);
     });
 }
 ```
 
 ## パターンを変える
 
+vibration2.html
 
-vibration.js
+```html
+<html>
+  <head>
+    <title>Vibration</title>
+    <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
+    <script src="../lib/setting.js" type="text/javascript"></script>
+    <script src="vibration2.js" type="text/javascript"></script>
+  </head>
+  <body>
+        <input type="button" value="バイブレーションを振動" onclick="vibration();"/><br />
+  </body>
+</html>
+```
+
+vibration2.js
 
 ```javascript
 function vibration() {
 
-    var uri = "http://192.168.0.15:4035/gotapi/vibration/vibrate?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
+    var uri = "http://" + ip + ":" + port + "/gotapi/vibration/vibrate?serviceId=" + hostId;
     var header = null;
     var data = "pattern=100,1000,100,1000";
     dConnect.put(uri, header, data, function(json) {
