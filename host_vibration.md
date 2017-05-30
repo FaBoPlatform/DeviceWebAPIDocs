@@ -46,6 +46,11 @@ function vibration() {
 
 ## パターンを変える
 
+URLの最後に、&をつけてpattern=100,1000,100,100を追加します。
+
+> http://192.168.0.68:4035/gotapi/put/vibration/vibrate?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org&pattern=100,1000,100,1000
+
+
 vibration2.html
 
 ```html

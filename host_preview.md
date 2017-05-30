@@ -14,15 +14,19 @@ preview.html
 ```javascript
 <html>
   <head>
-    <title>preview</title>
+    <title>takePhoto</title>
     <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
     <script src="../lib/setting.js" type="text/javascript"></script>
-    <script src="preview.js" type="text/javascript"></script>
+    <script src="controller.js" type="text/javascript"></script>
   </head>
   <body>
         <input type="button" value="プレビューを開始" onclick="preview_start();"/><br />
-        <input type="button" value="プレビューを開始" onclick="preview_stop();"/><br />
-        <img id="image" width="500"/>
+        <input type="button" value="プレビューを終了" onclick="preview_stop();"/><br />
+        <img id="image" width="500"/><br />
+        <input type="button" value="↑" onclick="move(1);"/><br />
+        <input type="button" value="■" onclick="move(0);"/><br />
+        <input type="button" value="↓" onclick="move(-1);"/><br />
+        <input type="range" min="-360" max="360" step="10" onchange="changeAngle(this.value)">
   </body>
 </html>
 ```

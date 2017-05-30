@@ -38,6 +38,7 @@ controller.js
 controller.html
 
 ```javascript
+var angle = 0;
 function preview_start() {
     var imageElement = document.getElementById("image");
     var uri = "http://" + ip + ":" + port + "/gotapi/mediastreamRecording/preview?serviceId=" + hostId;
