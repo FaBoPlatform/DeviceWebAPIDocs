@@ -43,7 +43,7 @@ function vibration() {
 }
 ```
 
-## バターンを変える
+## パターンを変える
 
 
 vibration.js
