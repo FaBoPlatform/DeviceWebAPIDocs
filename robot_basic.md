@@ -13,7 +13,7 @@
 
 ## URLによる擬似的なRESTFUL
 
-|操作|Endpoint|メソッド|
+|操作|Endpoint|
 |:--|:--|:--|
 |前進(speed=1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=0|
 |後進(speed=-1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=-1&angle=0|
