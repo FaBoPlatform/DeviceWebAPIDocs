@@ -40,7 +40,7 @@ function changeAngle(mAngle) {
 }
 
 function move(speed) {
-    var uri = "http://" + ip + ":" + port + "/gotapi/driveController/move?serviceId=" + faboId;
+    var uri = "http://" + ip + ":" + port + "/gotapi/driveController/move?serviceId=" + mouseId;
     var header = null;
     var data = "speed="+speed;
     data += "&angle="+angle;

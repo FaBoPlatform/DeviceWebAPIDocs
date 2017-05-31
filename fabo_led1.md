@@ -11,12 +11,12 @@
 
 ## URLによる擬似的なRESTFUL
 
-|操作|Endpoint|メソッド|
+|操作|Endpoint|
 |:--|:--|:--|
-|LEDの状態の変更|http://IP:4035/gotapi/post/gpio/digital/D2?serviceId=#####&value=1|POST|
-|LEDの点灯|http://IP:4035/gotapi/put/gpio/digital/D2?serviceId=#####|PUT|
-|LEDの消灯|http://IP:4035/gotapi/delete/gpio/digital/D2?serviceId=#####|DELETE|
-|LEDの状態の取得|http://1IP:4035/gotapi/gpio/digital/D2?serviceId=#####|GET|
+|LEDの状態の変更|http://IP:4035/gotapi/post/gpio/digital/D2?serviceId=#####&value=1|
+|LEDの点灯|http://IP:4035/gotapi/put/gpio/digital/D2?serviceId=#####|
+|LEDの消灯|http://IP:4035/gotapi/delete/gpio/digital/D2?serviceId=#####|
+|LEDの状態の取得|http://1IP:4035/gotapi/gpio/digital/D2?serviceId=#####|
 
 
 ## LEDを点灯する(PUT)
