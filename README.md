@@ -17,5 +17,10 @@ HTML5/JavaScript
 
 FaBo
 
+# 使用ソフトウェア
+
+* [Google Chrome](https://www.google.co.jp/chrome/browser/desktop/)
+* [Sublime text](https://www.sublimetext.com/)
+
 
 Powered by [FaBo](http://www.fabo.io)

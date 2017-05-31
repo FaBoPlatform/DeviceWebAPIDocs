@@ -1,10 +1,11 @@
 # Summary
 
 * [はじめに](README.md)
-* 設定
+* 教材の準備
+	* [サンプルのダウンロード](sample.md)
+* DeviceWebAPIManagerの設定
     * [DeviceWebAPI Managerの設定](manager.md)
     * [DeviceWebAPI Managerの生存確認](available.md)
-	* [サンプルのダウンロード](sample.md)
 	* [setting.jsの設定](setting.md)
 * Host基礎
 	* [バイブレーション](host_vibration.md)
@@ -20,6 +21,6 @@
 * Robotを操作する
 	* [Robot操作の基礎](robot_basic.md)
 	* [Robot操作のサンプル](robot_sample.md)
-* Firmata
+* その他
 	* [Firmataのインストール](firmata.md)
 
