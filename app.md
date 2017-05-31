@@ -2,7 +2,7 @@
 
 ## 研修で使用するアプリ
 
-|アプリ|URL|
+|アプリ|必要なVersion|URL|
 |:--|:--|
-| WebDeviceAPI Manager | https://play.google.com/store/apps/details?id=org.deviceconnect.android.manager |
-| FaBo Device Plugin | https://play.google.com/store/apps/details?id=io.fabo.android.deviceplugin.fabo |
+| WebDeviceAPI Manager | 2.1.1 | https://play.google.com/store/apps/details?id=org.deviceconnect.android.manager |
+| FaBo Device Plugin | 2.2 | https://play.google.com/store/apps/details?id=io.fabo.android.deviceplugin.fabo |

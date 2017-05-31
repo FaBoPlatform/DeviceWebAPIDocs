@@ -7,6 +7,7 @@ function preview_start() {
     dConnect.put(uri, header, data, function(json) {
         if (json.result == 0) {
             var uri = json.uri
+            uri.replace(/localhost/g , ip);
             imageElement.src = uri;
             console.log(uri);
         } else {
@@ -25,14 +26,7 @@ function preview_stop() {
     var header = null;
     var data = null;
     dConnect.delete(uri, header, data, function(json) {
-        if (json.result == 0) {
-            var uri = json.uri
-            imageElement.src = uri;
-            console.log(uri);
-        } else {
-            console.log(json.result);
-        }
-
+        console.log(json.result);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });

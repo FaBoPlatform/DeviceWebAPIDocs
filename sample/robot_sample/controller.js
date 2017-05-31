@@ -7,7 +7,8 @@ function preview_start() {
     var data = null;
     dConnect.put(uri, header, data, function(json) {
         if (json.result == 0) {
-            var uri = json.uri
+            var uri = json.uri;
+            uri.replace(/localhost/g , ip);
             imageElement.src = uri;
             console.log(uri);
         } else {
@@ -26,14 +27,7 @@ function preview_stop() {
     var header = null;
     var data = null;
     dConnect.delete(uri, header, data, function(json) {
-        if (json.result == 0) {
-            var uri = json.uri
-            imageElement.src = uri;
-            console.log(uri);
-        } else {
-            console.log(json.result);
-        }
-
+        console.log(json.result);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });
@@ -51,12 +45,7 @@ function move(speed) {
     var data = "speed="+speed;
     data += "&angle="+angle;
     dConnect.post(uri, header, data, function(json) {
-        if (json.result == 0) {
-            console.log(json);
-        } else {
-            console.log(json.result);
-        }
-
+        console.log(json.result);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });
