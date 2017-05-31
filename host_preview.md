@@ -4,8 +4,8 @@
 
 |操作|Endpoint|メソッド|
 |:--|:--|:--|
-|プレビューの開始| http://IP:4035/gotapi/mediaStreaming/preview?serviceId=##### | PUT |
-|プレビューの終了| http://IP:4035/gotapi/mediaStreaming/preview?serviceId=##### | DELETE |
+|プレビューの開始| http://IP:4035/gotapi/mediaStreamingRecording/preview?serviceId=##### | PUT |
+|プレビューの終了| http://IP:4035/gotapi/mediaStreamingRecording/preview?serviceId=##### | DELETE |
 
 ## Preview
 
