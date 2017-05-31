@@ -3,11 +3,7 @@
 * [はじめに](README.md)
 * 設定
     * [DeviceWebAPI Managerの設定](manager.md)
-    * [FaBo Pluginの設定](fabo.md)
-    * [FaBo Pluginの利用許可](permission.md)
     * [DeviceWebAPI Managerの生存確認](available.md)
-    * [USBデバイスの認識](usbdevice.md)
-* 教材の準備
 	* [サンプルのダウンロード](sample.md)
 	* [setting.jsの設定](setting.md)
 * Host基礎
@@ -15,6 +11,9 @@
 	* [写真を撮影する](host_takepic.md)
 	* [プレビューを開始](host_preview.md)
 * FaBo基礎
+	* [FaBo Pluginの接続](fabo.md)
+    * [FaBo Pluginの利用許可](permission.md)
+    * [USBデバイスの認識](usbdevice.md)
 	* [LEDの操作(アドレスバー)](fabo_led1.md)
 	* [LEDの操作(プログラム)](fabo_led2.md)
 	* [距離を取得](fabo_distance.md)
