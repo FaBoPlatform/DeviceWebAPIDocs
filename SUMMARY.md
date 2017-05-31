@@ -6,6 +6,7 @@
 * DeviceWebAPIManagerの設定
     * [DeviceWebAPI Managerの設定](manager.md)
     * [DeviceWebAPI Managerの生存確認](available.md)
+	* [既成のサンプルアプリで動作確認](webapp.md)
 	* [setting.jsの設定](setting.md)
 * Host基礎
 	* [バイブレーション](host_vibration.md)

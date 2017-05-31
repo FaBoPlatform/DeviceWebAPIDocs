@@ -2,6 +2,10 @@
 
 距離センサーをA0のPINに差し込みます。
 
+![](/img/distance001.png)
+
+![](/img/distance002.png)
+
 ## 距離を取得
 
 distance.html
