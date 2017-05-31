@@ -2,7 +2,7 @@
 
 * [はじめに](README.md)
 * 設定
-    * [DeviceWebAPI Managerの設定](setting.md)
+    * [DeviceWebAPI Managerの設定](manager.md)
     * [FaBo Pluginの設定](fabo.md)
     * [FaBo Pluginの利用許可](permission.md)
     * [DeviceWebAPI Managerの生存確認](available.md)
