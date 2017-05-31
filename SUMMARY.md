@@ -3,6 +3,7 @@
 * [はじめに](README.md)
 * 教材の準備
 	* [サンプルのダウンロード](sample.md)
+	* [アプリのダウンロード](app.md)
 * DeviceWebAPIManagerの設定
     * [DeviceWebAPI Managerの設定](manager.md)
     * [DeviceWebAPI Managerの生存確認](available.md)

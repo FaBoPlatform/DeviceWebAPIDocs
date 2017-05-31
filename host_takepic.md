@@ -14,7 +14,7 @@ photo.html
 <html>
   <head>
     <title>takePhoto</title>
-    <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
+    <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
     <script src="../lib/setting.js" type="text/javascript"></script>
     <script src="takePhoto.js" type="text/javascript"></script>
   </head>

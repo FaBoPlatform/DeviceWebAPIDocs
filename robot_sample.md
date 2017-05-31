@@ -19,7 +19,7 @@ controller.js
 <html>
   <head>
     <title>takePhoto</title>
-    <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
+    <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
     <script src="controller.js" type="text/javascript"></script>
   </head>
   <body>
