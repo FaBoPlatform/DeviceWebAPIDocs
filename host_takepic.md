@@ -34,7 +34,7 @@ function takePhoto() {
     dConnect.post(uri , null, null, function(json) {
         if (json.result == 0) {
             var uri = json.uri;
-            uri.replace(/localhost/g , ip);
+            uri = uri.replace(/localhost/g , ip);
             imageElement.src = uri;
             console.log(uri);
         } else {
