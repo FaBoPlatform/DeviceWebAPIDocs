@@ -6,11 +6,26 @@
 |:--|:--|:--|
 |バイブレーション| http://IP:4035/gotapi/vibration/vibrate?serviceId=##### | PUT |
 
-## ブラウザーからの起動(PUT)
+## URLによる擬似的なRESTFUL
+
+|操作|Endpoint|メソッド|
+|:--|:--|:--|
+|バイブレーション| http://IP:4035/gotapi/put/vibration/vibrate?serviceId=##### | 
+
+# バイブレーションを動作
+
+## ブラウザからの起動(PUT)
+
+ブラウザからの起動では、Chroneのアドレスバーに下記 Endpointを入力し、Enterで呼び出します。
 
 > http://192.168.0.15:4035/gotapi/put/vibration/vibrate?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org
 
-## サンプル
+## HTML/JavaScript
+
+HTML/JavaScriptのサンプルの実行は`/sample/host_vibrtion/'フォルダにサンプルが置かれています。
+vibration1.htmlをChrome Browserにドラッグ&ドロップし、読み出します。
+
+## サンプル1
 
 vibration1.html
 
@@ -44,12 +59,20 @@ function vibration() {
 }
 ```
 
-## パターンを変える
+# バイブレーションを動作
+
+## ブラウザからの起動(PUT)
 
 URLの最後に、&をつけてpattern=100,1000,100,100を追加します。
 
 > http://192.168.0.68:4035/gotapi/put/vibration/vibrate?serviceId=Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org&pattern=100,1000,100,1000
 
+## HTML/JavaScript
+
+HTML/JavaScriptのサンプルの実行は`/sample/host_vibrtion/'フォルダにサンプルが置かれています。
+vibration1.htmlをChrome Browserにドラッグ&ドロップし、読み出します。
+
+## サンプル2
 
 vibration2.html
 

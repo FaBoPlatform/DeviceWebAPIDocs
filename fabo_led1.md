@@ -16,7 +16,7 @@
 |LEDの状態の変更|http://IP:4035/gotapi/post/gpio/digital/D2?serviceId=#####&value=1|
 |LEDの点灯|http://IP:4035/gotapi/put/gpio/digital/D2?serviceId=#####|
 |LEDの消灯|http://IP:4035/gotapi/delete/gpio/digital/D2?serviceId=#####|
-|LEDの状態の取得|http://1IP:4035/gotapi/gpio/digital/D2?serviceId=#####|
+|LEDの状態の取得|http://IP:4035/gotapi/gpio/digital/D2?serviceId=#####|
 
 
 ## LEDを点灯する(PUT)
