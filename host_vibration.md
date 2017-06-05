@@ -8,7 +8,7 @@
 
 ## URLによる擬似的なRESTFUL
 
-|操作|Endpoint|メソッド|
+|操作|Endpoint|
 |:--|:--|:--|
 |バイブレーション| http://IP:4035/gotapi/put/vibration/vibrate?serviceId=##### | 
 
