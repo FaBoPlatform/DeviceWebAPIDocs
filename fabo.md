@@ -2,26 +2,41 @@
 
 ## FaBo Pluginを有効にする
 
+Arduino Uno とスマートフォンをUSB Host ケーブルで接続します。ArduinoにFirmataをインストールしてからスマートフォンに接続してください。
+
 ![](/img/usb001.png)
 
 ![](/img/usb002.png)
+
+以下の写真のようになれば、FaBo PluginとArduinoは正常に作動しています。
 
 ![](/img/usb003.png)
 
 ## 動作確認
 
-![](/img/usb004.png)
-
-![](/img/usb005.png)
+FaBoのLED Brickを以下の写真のようにD2に接続します。
+初期状態ではLEDは消えています。
 
 ![](/img/usb006.png)
 
 ![](/img/usb007.png)
 
+![](/img/usb004.png)
+
+![](/img/usb005.png)
+
+PUT /gotapi/gpio/digital/D2を選択し、Send Requestをタップします。
+
 ![](/img/usb008.png)
 
-![](/img/usb009.png)
+すると以下の写真のようにLEDが点灯します。
+
+![](/img/usb009.jpg)
+
+次にDELETE /gotapi/gpio/digital/D2を選択し、Send Requestをタップします。
 
 ![](/img/usb010.png)
+
+すると今度は以下の写真のようにLEDが消灯します。
 
 ![](/img/usb011.png)
