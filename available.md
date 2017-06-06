@@ -12,4 +12,8 @@
 
 > http://192.168.0.10:4035/gotapi/availability
 
+### 接続ができた場合
 ![](/img/available001.png)
+
+### どこか設定が間違っている場合
+![](/img/available002.png)
