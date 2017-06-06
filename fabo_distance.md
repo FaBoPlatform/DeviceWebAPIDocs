@@ -10,7 +10,7 @@
 
 distance.html
 
-```javascript
+```html
 <html>
   <head>
     <title>distance</title>
@@ -43,7 +43,7 @@ function distance() {
             volt = arduino_map(value, 0, 1023, 0, 5000);
             distanceValue = arduino_map(volt, 3200, 500, 5, 80);
             valueElement.innerHTML = "<h1>" + distanceValue + "</h1>";
-        } 
+        }
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });

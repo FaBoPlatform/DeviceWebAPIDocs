@@ -50,7 +50,7 @@ function LEDOn() {
 
 led2.html
 
-```javascript
+```html
 <html>
   <head>
   <title>LED</title>
@@ -97,8 +97,8 @@ function LEDOff() {
 
 led3.html
 
-```javascript
-<<html>
+```html
+<html>
   <head>
   <title>LED</title>
   <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
@@ -157,7 +157,7 @@ function LEDChange(value) {
 
 led4.html
 
-```javascript
+```html
 <html>
   <head>
   <title>LED</title>
