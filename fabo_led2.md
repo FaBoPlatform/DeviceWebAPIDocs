@@ -15,7 +15,7 @@
 
 led1.html
 
-```javascript
+```html
 <html>
   <head>
   <title>LED</title>
