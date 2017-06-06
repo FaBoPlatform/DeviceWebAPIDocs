@@ -31,7 +31,7 @@ PUT /gotapi/gpio/digital/D2を選択し、Send Requestをタップします。
 
 すると以下の写真のようにLEDが点灯します。
 
-![](/img/usb009.png)
+![](/img/usb009.jpg)
 
 次にDELETE /gotapi/gpio/digital/D2を選択し、Send Requestをタップします。
 
