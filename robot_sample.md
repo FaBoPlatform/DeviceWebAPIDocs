@@ -22,7 +22,7 @@
 
 ## Sample
 
-controller.js
+controller.html
 
 ```html
 <html>
@@ -44,7 +44,7 @@ controller.js
 ```
 
 
-controller.html
+controller.js
 
 ```javascript
 var angle = 0;
@@ -100,6 +100,3 @@ function move(speed) {
     });
 }
 ```
-
-
-

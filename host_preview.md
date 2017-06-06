@@ -11,7 +11,7 @@
 
 preview.html
 
-```javascript
+```html
 <html>
   <head>
     <title>takePhoto</title>
