@@ -13,6 +13,9 @@
 
 まず、LEDを点灯するサンプルを作成します。LEDの点灯にはPUTメソッドを用います。
 
+HTML/JavaScriptのサンプルは`/sample/gpio_led/`フォルダに置かれています。
+led1.htmlをChrome Browserにドラッグ&ドロップし、実行します。
+
 led1.html
 
 ```html

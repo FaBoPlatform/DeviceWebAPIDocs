@@ -8,6 +8,9 @@
 
 ## 温度を取得
 
+HTML/JavaScriptのサンプルは`/sample/gpio_temperature/`フォルダに置かれています。
+temperature.htmlをChrome Browserにドラッグ&ドロップし、実行します。
+
 temperature.html
 
 ```html
