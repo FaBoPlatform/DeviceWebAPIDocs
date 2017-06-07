@@ -12,16 +12,16 @@ photo.html
 
 ```html
 <html>
-  <head>
-    <title>takePhoto</title>
-    <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
-    <script src="../lib/setting.js" type="text/javascript"></script>
-    <script src="takePhoto.js" type="text/javascript"></script>
-  </head>
-  <body>
+    <head>
+        <title>takePhoto</title>
+        <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
+        <script src="../lib/setting.js" type="text/javascript"></script>
+        <script src="takePhoto.js" type="text/javascript"></script>
+    </head>
+    <body>
         <input type="button" value="写真を撮影" onclick="takePhoto();"/><br />
         <img id="image" width="500"/>
-  </body>
+    </body>
 </html>
 ```
 

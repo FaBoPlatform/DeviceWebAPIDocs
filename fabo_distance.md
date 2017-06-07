@@ -12,16 +12,16 @@ distance.html
 
 ```html
 <html>
-  <head>
-    <title>distance</title>
-    <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
-    <script src="../lib/setting.js" type="text/javascript"></script>
-    <script src="distance.js" type="text/javascript"></script>
-  </head>
-  <body>
+    <head>
+        <title>distance</title>
+        <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
+        <script src="../lib/setting.js" type="text/javascript"></script>
+        <script src="distance.js" type="text/javascript"></script>
+    </head>
+    <body>
         <input type="button" value="距離を取得" onclick="distance();"/><br />
         <div id="value"></div>
-  </body>
+    </body>
 </html>
 ```
 
