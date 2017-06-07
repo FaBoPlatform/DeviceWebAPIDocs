@@ -32,8 +32,8 @@
 
 controller.htmlをブラウザで開くと，以下のような画面が開く．
 
-![](/img/controller01.png)
+![](./img/controller01.png)
 
 このボタンなどを押すことで，ラジコンカーを実際に操作できる．以下はコントローラーの各ボタンなどの役割である．
 
-![](/img/controller02.png)
+![](./img/controller02.png)

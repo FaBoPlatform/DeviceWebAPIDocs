@@ -11,9 +11,9 @@ DeviceWebAPIにアクセスするために必要な要素として
 
 ## IPアドレスとPort番号の確認
 
-![](/img/setting001.png)
+![](./img/setting001.png)
 
-![](/img/setting005.png)
+![](./img/setting005.png)
 
 [全プラグインを再起動する]項目の下に表示されているのが、IPアドレスとPort番号になります。
 これをメモします。
@@ -25,11 +25,11 @@ ServiceIdの一覧は、/gotapi/serviceDiscoveryで取得する事が可能で�
 
 > http://192.168.10.0:4035/gotapi/serviceDiscovery
 
-![](/img/serviceid_fabo.png)
+![](./img/serviceid_fabo.png)
 
-![](/img/serviceid_host.png)
+![](./img/serviceid_host.png)
 
-![](/img/serviceid_mouse.png)
+![](./img/serviceid_mouse.png)
 
 今回、FaBo PluginとHost PluginのServiceIdを取得します。
 FaBo Pluginは、gpio_service_id.######で始まるIDです。Host Pluginは、Host.####で始まるIDになります。

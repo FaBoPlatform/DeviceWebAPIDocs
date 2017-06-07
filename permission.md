@@ -4,4 +4,4 @@
 
 FaBo Device Pluginに最初にアクセスした際に、APIの利用許可をおこないます。
 
-![](/img/permission001.png)
+![](./img/permission001.png)

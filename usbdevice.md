@@ -9,12 +9,12 @@
 
 ## Xperia SO-02HでのUSBデバイスの認識方法
 
-![](/img/xperia001.png)
+![](./img/xperia001.png)
 
-![](/img/xperia002.png)
+![](./img/xperia002.png)
 
-![](/img/xperia003.png)
+![](./img/xperia003.png)
 
-![](/img/xperia004.png)
+![](./img/xperia004.png)
 
-![](/img/xperia005.png)
+![](./img/xperia005.png)
