@@ -12,10 +12,10 @@ function preview() {
     builder.setServiceId(serviceId);
 
     var uri = builder.build();
-    
+
     dConnect.put(uri, null, null, function(json) {
         if (json.result == 0) {
-            var uri = json.uri
+            var uri = json.uri;
             uri = uri.replace(/localhost/g , ip);
             imageElement.src = uri;
             //alert(uri);
@@ -42,11 +42,11 @@ function move(speed) {
     //alert(uri);
     var header = null;
     var data = "speed="+speed;
-    data += "&angle=0"
+    data += "&angle=0";
     dConnect.post(uri, header, data, function(json) {
         if (json.result == 0) {
             console.log(json);
-        
+
         } else {
             alert(json.result);
         }

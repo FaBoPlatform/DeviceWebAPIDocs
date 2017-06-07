@@ -1,38 +1,40 @@
-# 距離を取得
+# 温度を取得
 
-距離センサーをA0のPINに差し込みます。
+温度センサーをA0のPINに差し込みます。
 
-![](./img/distance001.png)
+![](./img/temperature001.jpg)
 
-![](./img/distance002.png)
+![](./img/temperature002.png)
 
-## 距離を取得
+## 温度を取得
 
-distance.html
+temperature.html
 
 ```html
 <html>
   <head>
-    <title>distance</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>temperature</title>
     <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
     <script src="../lib/setting.js" type="text/javascript"></script>
-    <script src="distance.js" type="text/javascript"></script>
+    <script src="temperature.js" type="text/javascript"></script>
   </head>
   <body>
-        <input type="button" value="距離を取得" onclick="distance();"/><br />
+        <input type="button" value="温度を取得" onclick="temperature();"/><br />
         <div id="value"></div>
   </body>
 </html>
+
 ```
 
-distance.js
+temperature.js
 
 ```javascript
 function arduino_map(x, in_min, in_max, out_min, out_max){
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 
-function distance() {
+function temperature() {
     var valueElement = document.getElementById("value");
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/analog/A0?serviceId=" + faboId;
     console.log(uri);
@@ -40,12 +42,15 @@ function distance() {
         console.log(json);
         if (json.result == 0) {
             var value = json.value;
+            console.log(value);
             volt = arduino_map(value, 0, 1023, 0, 5000);
-            distanceValue = arduino_map(volt, 3200, 500, 5, 80);
-            valueElement.innerHTML = "<h1>" + distanceValue + "</h1>";
+            temperatureValue = arduino_map(volt, 300, 1600, -30, 100);
+            temperatureValue = Math.round(temperatureValue*10)/10;
+            valueElement.innerHTML = "<h1>" + temperatureValue + "</h1>";
         }
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });
 }
+
 ```
