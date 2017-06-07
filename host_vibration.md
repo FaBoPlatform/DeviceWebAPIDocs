@@ -22,7 +22,7 @@
 
 ## HTML/JavaScript
 
-HTML/JavaScriptのサンプルの実行は`/sample/host_vibrtion/'フォルダにサンプルが置かれています。
+HTML/JavaScriptのサンプルの実行は`/sample/host_vibrtion/`フォルダにサンプルが置かれています。
 vibration1.htmlをChrome Browserにドラッグ&ドロップし、読み出します。
 
 ## サンプル1
@@ -69,7 +69,7 @@ URLの最後に、&をつけてpattern=100,1000,100,100を追加します。
 
 ## HTML/JavaScript
 
-HTML/JavaScriptのサンプルの実行は`/sample/host_vibrtion/'フォルダにサンプルが置かれています。
+HTML/JavaScriptのサンプルの実行は`/sample/host_vibrtion/`フォルダにサンプルが置かれています。
 vibration1.htmlをChrome Browserにドラッグ&ドロップし、読み出します。
 
 ## サンプル2

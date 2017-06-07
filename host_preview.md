@@ -26,7 +26,7 @@ preview.html
         <input type="button" value="↑" onclick="move(1);"/><br />
         <input type="button" value="■" onclick="move(0);"/><br />
         <input type="button" value="↓" onclick="move(-1);"/><br />
-        <input type="range" min="-360" max="360" step="10" onchange="changeAngle(this.value)">
+        <input type="range" min="-360" max="360" step="10" onchange="changeAngle(this.value);">
   </body>
 </html>
 ```
@@ -42,7 +42,7 @@ function preview_start() {
     var data = null;
     dConnect.put(uri, header, data, function(json) {
         if (json.result == 0) {
-            var uri = json.uri
+            var uri = json.uri;
             uri = uri.replace(/localhost/g , ip);
             imageElement.src = uri;
             console.log(uri);
@@ -57,7 +57,7 @@ function preview_start() {
 
 function preview_stop() {
     var imageElement = document.getElementById("image");
-    var uri = "http://" + ip + ":" + port + "/gotapi/mediastreamRecording/preview?serviceId=" + hostId;;
+    var uri = "http://" + ip + ":" + port + "/gotapi/mediastreamRecording/preview?serviceId=" + hostId;
 
     var header = null;
     var data = null;

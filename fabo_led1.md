@@ -12,7 +12,7 @@
 ## URLによる擬似的なRESTFUL
 
 |操作|Endpoint|
-|:--|:--|:--|
+|:--|:--|
 |LEDの状態の変更|http://IP:4035/gotapi/post/gpio/digital/D2?serviceId=#####&value=1|
 |LEDの点灯|http://IP:4035/gotapi/put/gpio/digital/D2?serviceId=#####|
 |LEDの消灯|http://IP:4035/gotapi/delete/gpio/digital/D2?serviceId=#####|
@@ -48,5 +48,3 @@ D2にFaBo LED Brickを接続します。
 ## LEDの状態を取得する(GET)
 
 > http://192.168.0.10:4035/gotapi/gpio/digital/D2?serviceId=#########
-
-

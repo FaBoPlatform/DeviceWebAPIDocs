@@ -13,7 +13,7 @@
 ## URLによる擬似的なRESTFUL
 
 |操作|Endpoint|
-|:--|:--|:--|
+|:--|:--|
 |前進(speed=1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=0|
 |後進(speed=-1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=-1&angle=0|
 |停止(speed=0)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=0&angle=0|
@@ -38,7 +38,7 @@ controller.html
         <input type="button" value="↑" onclick="move(1);"/><br />
         <input type="button" value="■" onclick="move(0);"/><br />
         <input type="button" value="↓" onclick="move(-1);"/><br />
-        <input type="range" min="-360" max="360" step="10" onchange="changeAngle(this.value)">
+        <input type="range" min="-360" max="360" step="10" onchange="changeAngle(this.value);">
   </body>
 </html>
 ```
@@ -56,7 +56,7 @@ function preview_start() {
     var data = null;
     dConnect.put(uri, header, data, function(json) {
         if (json.result == 0) {
-            var uri = json.uri
+            var uri = json.uri;
             uri = uri.replace(/localhost/g , ip);
             imageElement.src = uri;
             console.log(uri);
