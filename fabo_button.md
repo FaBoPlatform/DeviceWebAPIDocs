@@ -14,7 +14,7 @@
 
 button.html
 
-```javascript
+```html
 <html>
   <head>
   <title>BUTTON</title>
@@ -96,4 +96,3 @@ function doUnregisterOnChangeEvent(serviceId) {
     });
 }
 ```
-
