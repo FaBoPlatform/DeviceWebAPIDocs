@@ -7,7 +7,7 @@
 DeviceWebAPIでは、各プラグインにアクセスするためにServiceIdが必要となります。
 ServiceIdの一覧は、/gotapi/serviceDiscoveryで取得する事が可能です。
 
-![](/img/service001.png)
+![](./img/service001.png)
 
 > http://192.168.10.0:4035/gotapi/serviceDiscovery
 

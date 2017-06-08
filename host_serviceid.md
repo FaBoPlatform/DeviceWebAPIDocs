@@ -6,7 +6,7 @@ DeviceWebAPI Managerでは、対象とするプラグインにアクセスする
 
 ServiceDiscoveryで対象プラグインのServiceIdを取得します。
 
-![](/img/host_service001.png)
+![](./img/host_service001.png)
 
 
 ```javascript
