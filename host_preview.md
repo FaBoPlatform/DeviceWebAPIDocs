@@ -9,6 +9,9 @@
 
 ## Preview
 
+HTML/JavaScriptのサンプルは`/sample/host_preview/`フォルダに置かれています。
+preview.htmlをChrome Browserにドラッグ&ドロップし、実行します。
+
 preview.html
 
 ```html

@@ -22,8 +22,8 @@
 
 ## HTML/JavaScript
 
-HTML/JavaScriptのサンプルの実行は`/sample/host_vibration/`フォルダにサンプルが置かれています。
-vibration1.htmlをChrome Browserにドラッグ&ドロップし、読み出します。
+HTML/JavaScriptのサンプルは`/sample/host_vibrtion/`フォルダに置かれています。
+vibration1.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
 ## サンプル1
 
