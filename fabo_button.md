@@ -12,19 +12,24 @@
 イベントの登録は、dconnectsdk-2.2.0.jsのdConnect.addEventListener()で登録をおこない、 dConnect.removeEventListener()で
 登録の削除が可能になります。イベント登録する事で、WebSocketを経由して、リアルタイムに値の変化を取得できるようになります。
 
+## HTML/JavaScript
+
+HTML/JavaScriptのサンプルは`/sample/gpio_button/`フォルダに置かれています。
+button.htmlをChrome Browserにドラッグ&ドロップし、実行します。
+
 button.html
 
 ```html
 <html>
-  <head>
-  <title>BUTTON</title>
-  <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
-  <script src="button.js" type="text/javascript"></script>
-  </head>
-  <body>
-      <input type="button" value="イベントの登録" onclick="registerEvent();"/><br />
-      <input type="button" value="イベントの登録の削除" onclick="unregisterEvent();"/><br />
-  </body>
+    <head>
+        <title>BUTTON</title>
+        <script src="dconnectsdk-2.2.0.js" type="text/javascript"></script>
+        <script src="button.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <input type="button" value="イベントの登録" onclick="registerEvent();"/><br />
+        <input type="button" value="イベントの登録の削除" onclick="unregisterEvent();"/><br />
+    </body>
 </html>
 ```
 

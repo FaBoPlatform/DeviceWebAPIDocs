@@ -14,12 +14,13 @@
 ## URLによる擬似的なRESTFUL
 
 |操作|Endpoint|
-|:--|:--|:--|
+|:--|:--|
 |前進(speed=1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=0|
 |後進(speed=-1)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=-1&angle=0|
 |停止(speed=0)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=0&angle=0|
 |回転(angle=360)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=360|
 |回転(angle=-360)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=-360|
+※この時serviceIdにはFaBo PluginのIDを指定します
 
 ## 引数
 
@@ -32,8 +33,8 @@
 
 controller.htmlをブラウザで開くと，以下のような画面が開く．
 
-![](/img/controller01.png)
+![](./img/controller01.png)
 
 このボタンなどを押すことで，ラジコンカーを実際に操作できる．以下はコントローラーの各ボタンなどの役割である．
 
-![](/img/controller02.png)
+![](./img/controller02.png)

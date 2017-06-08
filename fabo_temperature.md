@@ -8,21 +8,24 @@
 
 ## 温度を取得
 
+HTML/JavaScriptのサンプルは`/sample/gpio_temperature/`フォルダに置かれています。
+temperature.htmlをChrome Browserにドラッグ&ドロップし、実行します。
+
 temperature.html
 
 ```html
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>temperature</title>
-    <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
-    <script src="../lib/setting.js" type="text/javascript"></script>
-    <script src="temperature.js" type="text/javascript"></script>
-  </head>
-  <body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>temperature</title>
+        <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
+        <script src="../lib/setting.js" type="text/javascript"></script>
+        <script src="temperature.js" type="text/javascript"></script>
+    </head>
+    <body>
         <input type="button" value="温度を取得" onclick="temperature();"/><br />
         <div id="value"></div>
-  </body>
+    </body>
 </html>
 
 ```

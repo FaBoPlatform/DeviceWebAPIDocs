@@ -2,26 +2,29 @@
 
 距離センサーをA0のPINに差し込みます。
 
-![](/img/distance001.png)
+![](./img/distance001.png)
 
-![](/img/distance002.png)
+![](./img/distance002.png)
 
 ## 距離を取得
+
+HTML/JavaScriptのサンプルは`/sample/gpio_distance/`フォルダに置かれています。
+distance.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
 distance.html
 
 ```html
 <html>
-  <head>
-    <title>distance</title>
-    <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
-    <script src="../lib/setting.js" type="text/javascript"></script>
-    <script src="distance.js" type="text/javascript"></script>
-  </head>
-  <body>
+    <head>
+        <title>distance</title>
+        <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
+        <script src="../lib/setting.js" type="text/javascript"></script>
+        <script src="distance.js" type="text/javascript"></script>
+    </head>
+    <body>
         <input type="button" value="距離を取得" onclick="distance();"/><br />
         <div id="value"></div>
-  </body>
+    </body>
 </html>
 ```
 

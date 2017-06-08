@@ -22,6 +22,9 @@
 
 ## Sample
 
+HTML/JavaScriptのサンプルは`/sample/robot_sample/`フォルダに置かれています。
+controller.htmlをChrome Browserにドラッグ&ドロップし、実行します。
+
 controller.html
 
 ```html
