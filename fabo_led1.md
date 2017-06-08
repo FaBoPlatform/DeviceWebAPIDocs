@@ -17,7 +17,7 @@
 |LEDの点灯|http://IP:4035/gotapi/put/gpio/digital/D2?serviceId=#####|
 |LEDの消灯|http://IP:4035/gotapi/delete/gpio/digital/D2?serviceId=#####|
 |LEDの状態の取得|http://IP:4035/gotapi/gpio/digital/D2?serviceId=#####|
-
+※この時serviceIdにはFaBo PluginのIDを指定します
 
 ## LEDを点灯する(PUT)
 

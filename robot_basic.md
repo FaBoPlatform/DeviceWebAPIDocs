@@ -20,6 +20,7 @@
 |停止(speed=0)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=0&angle=0|
 |回転(angle=360)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=360|
 |回転(angle=-360)|http://IP:4035/gotapi/post/driveController/move?serviceId=####&speed=1&angle=-360|
+※この時serviceIdにはFaBo PluginのIDを指定します
 
 ## 引数
 
