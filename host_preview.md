@@ -16,11 +16,11 @@ preview.html
 
 ```html
 <html>
-  <head>
-    <title>takePhoto</title>
-    <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
-    <script src="../lib/setting.js" type="text/javascript"></script>
-    <script src="controller.js" type="text/javascript"></script>
+    <head>
+        <title>takePhoto</title>
+        <script src="../lib/dconnectsdk-2.2.0.js" type="text/javascript"></script>
+        <script src="../lib/setting.js" type="text/javascript"></script>
+        <script src="controller.js" type="text/javascript"></script>
   </head>
   <body>
         <input type="button" value="プレビューを開始" onclick="preview_start();"/><br />
