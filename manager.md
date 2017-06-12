@@ -1,10 +1,10 @@
 # DeviceWebAPI Managerの設定
 
-![](./img/setting001.png = 200x)
+![](./img/setting001.png| width=100)
 
 設定を変更するためにDevice Connect Managerをオフにします。
 
-![](./img/setting002.png = 200x)
+![](./img/setting002.png){:height="100px" width="100px"}
 
 ![](./img/setting003.png = 200x)
 
