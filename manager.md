@@ -4,7 +4,7 @@
 
 設定を変更するためにDevice Connect Managerをオフにします。
 
-![](./img/setting002.png){:height="100px" width="100px"}
+![](./img/setting002.png){:height="30px" width="40px"}
 
 ![](./img/setting003.png = 200x)
 
