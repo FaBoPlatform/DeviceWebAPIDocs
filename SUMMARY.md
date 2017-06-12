@@ -1,7 +1,7 @@
 # Summary
 
 * [はじめに](README.md)
-* [教材の準備](jiao-cai-306e-zhun-bei.md)
+* 教材の準備
   * [サンプルのダウンロード](sample.md)
   * [アプリのダウンロード](app.md)
 * DeviceWebAPIManagerの設定
