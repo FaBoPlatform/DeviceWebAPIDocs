@@ -9,7 +9,6 @@
   * [DeviceWebAPI Managerの生存確認](available.md)
   * [既成のサンプルアプリで動作確認](webapp.md)
   * [setting.jsの設定](setting.md)
-  * [USB Deviceの認識](usbdevice.md)
 * Host基礎
   * [バイブレーション](host_vibration.md)
   * [写真を撮影する](host_takepic.md)
@@ -28,5 +27,4 @@
   * [Firmataのインストール](firmata.md)
   * [FaBo 温度を取得](fabo_temperature.md)
   * [FaBo 照度を取得](light.md)
-
-  
+  * [USB Deviceの認識](usbdevice.md)
