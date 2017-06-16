@@ -16,7 +16,6 @@
 * FaBo基礎
   * [FaBo Pluginの接続](fabo.md)
   * [FaBo Pluginの利用許可](permission.md)
-  * [USBデバイスの認識](usbdevice.md)
   * [LEDの操作\(アドレスバー\)](fabo_led1.md)
   * [LEDの操作\(プログラム\)](fabo_led2.md)
   * [距離を取得](fabo_distance.md)
