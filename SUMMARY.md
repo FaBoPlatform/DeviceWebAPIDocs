@@ -5,6 +5,7 @@
   * [サンプルのダウンロード](sample.md)
   * [アプリのダウンロード](app.md)
   * [開発に必要なソフトウェア](pc.md)
+  * [教材のダウンロード](docs.md)
 * DeviceWebAPIManagerの設定
   * [DeviceWebAPI Managerの設定](manager.md)
   * [DeviceWebAPI Managerの生存確認](available.md)
