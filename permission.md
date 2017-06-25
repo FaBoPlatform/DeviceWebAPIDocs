@@ -1,7 +1,16 @@
-# FaBo Device Pluginの利用許可
+# 認証ダイアログの表示/非表示設定
 
-## FaBo Device Pluginの利用許可
+## F認証ダイアログの表示/非表示設定
 
-FaBo Device Pluginに最初にアクセスした際に、APIの利用許可をおこないます。
+認証ダイアログの表示/非表示設定は、設定画面でおこないます。
 
-![](./img/permission001.png)
+![](./img/oauth001.png)
+
+![](./img/oauth002.png)
+
+![](./img/oauth003.png)
+
+![](./img/oauth004.png)
+
+![](./img/oauth005.png)
+
