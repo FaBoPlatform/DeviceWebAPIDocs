@@ -30,6 +30,7 @@
 * 設定関連
   * [認証ダイアログの表示/非表示設定](oauth.md)
 * その他
+  * [トラブルシューティング](trouble.md)
   * [Firmataのインストール](firmata.md)
   * [FaBo 温度を取得](fabo_temperature.md)
   * [FaBo 照度を取得](light.md)
