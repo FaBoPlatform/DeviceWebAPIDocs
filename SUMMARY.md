@@ -22,7 +22,8 @@
   * [LEDの操作\(プログラム\)](fabo_led2.md)
   * [距離を取得](fabo_distance.md)
 * FaBo仮想デバイス
-  * [3軸加速度センサー](virtual_3axis.md)
+  * [3軸加速度センサーの登録](virtual_3axis.md)
+  * [3軸加速度センサーの取得](virtual_3axis_regist.md)
 * Robotを操作する
   * [Robot操作の基礎](robot_basic.md)
   * [Robot操作のサンプル](robot_sample.md)
