@@ -28,10 +28,6 @@ preview.html
         <input type="button" value="プレビューを開始" onclick="preview_start();"/><br />
         <input type="button" value="プレビューを終了" onclick="preview_stop();"/><br />
         <img id="image" width="500"/><br />
-        <input type="button" value="↑" onclick="move(1);"/><br />
-        <input type="button" value="■" onclick="move(0);"/><br />
-        <input type="button" value="↓" onclick="move(-1);"/><br />
-        <input type="range" min="-360" max="360" step="10" onchange="changeAngle(this.value);">
   </body>
 </html>
 ```
