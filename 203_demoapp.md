@@ -1,8 +1,10 @@
-# 既成のサンプルApp
+# 203.デモApp
 
-[http://deviceconnectusers.github.io/manager/](http://deviceconnectusers.github.io/manager/)に既成のAppがあります。
+{%youtube%}a9XCYeleZGc{%endyoutube%}
 
-URLの一番最後に、DeviceWebAPI ManagerのIPアドレスを追記し、読み込みます。
+[http://deviceconnectusers.github.io/manager/](http://deviceconnectusers.github.io/manager/)にデモAppがあります。
+
+[202.DeviceWebAPI Managerの生存確認](202_available.md)でメモしたIPアドレスを、URLの一番最後に、`?ip=メモしたIPアドレス`の形式で追加し、アクセスします。
 
 ![](./img/webapp001.png)
 
