@@ -11,6 +11,9 @@
 HTML/JavaScriptのサンプルは`/sample/host_takePhoto/`フォルダに置かれています。
 takePhoto.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
+![](/img/sample_takephoto.png)
+
+
 takePhoto.html
 
 ```html

@@ -12,6 +12,8 @@
 HTML/JavaScriptのサンプルは`/sample/host_preview/`フォルダに置かれています。
 preview.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
+![](/img/sample_preview.png)
+
 preview.html
 
 ```html

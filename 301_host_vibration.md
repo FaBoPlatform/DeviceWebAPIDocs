@@ -25,6 +25,8 @@
 HTML/JavaScriptのサンプルは`/sample/host_vibrtion/`フォルダに置かれています。
 vibration1.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
+![](/img/sample_vibration.png)
+
 ## サンプル1
 
 vibration1.html

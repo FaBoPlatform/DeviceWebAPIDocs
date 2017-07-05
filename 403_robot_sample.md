@@ -25,7 +25,7 @@
 HTML/JavaScriptのサンプルは`/sample/robot_sample/`フォルダに置かれています。
 controller.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
-![](./img/robotsample001.png)
+![](/img/robotsample001.png)
 
 controller.html
 
