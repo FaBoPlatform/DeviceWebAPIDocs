@@ -25,14 +25,15 @@
   * [502.LEDの操作\(アドレスバー\)](502_fabo_led1.md)
   * [503.LEDの操作\(プログラム\)](503_fabo_led2.md)
   * [504.距離を取得](504_fabo_distance.md)
+  * [505.FaBo 温度を取得](505_fabo_temperature.md)
+  * [506.FaBo 照度を取得](506_light.md)
 * 600.FaBo仮想デバイス
-  * [601.3軸加速度センサーの登録](virtual_3axis.md)
-  * [602.3軸加速度センサーの取得](virtual_3axis_regist.md)
+  * [601.3軸加速度センサーの登録](601_virtual_3axis.md)
+  * [602.3軸加速度センサーの取得](602_virtual_3axis_regist.md)
 * 700.その他
-  * [701.認証ダイアログの表示/非表示設定](oauth.md)
-  * [702.トラブルシューティング](trouble.md)
-  * [703.Firmataのインストール](firmata.md)
-  * [704.FaBo 温度を取得](fabo_temperature.md)
-  * [705.FaBo 照度を取得](light.md)
-  * [706.USB Deviceの認識](usbdevice.md)
-  * [707.デモサイトをスマフォにいれる](demo.md)
+  * [701.認証ダイアログの表示/非表示設定](701_oauth.md)
+  * [702.Firmataのインストール](firmata.md)
+  * [703.USB Deviceの認識](usbdevice.md)
+  * [704.デモサイトをスマフォにいれる](demo.md)
+* 800.トラブルシューティング
+  * [801.トラブルシューティング](801_trouble.md)]

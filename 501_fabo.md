@@ -1,4 +1,4 @@
-# FaBo Pluginの設定
+# 501.aBo Pluginの設定
 
 ## 動作確認
 

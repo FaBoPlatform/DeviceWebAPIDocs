@@ -1,8 +1,10 @@
-#照度を取得
+# 506.照度を取得
 
 照度センサーをA0のピンに差し込みます。
-![](./img/light.jpg)
+
+![](./img/light.png)
 ![](./img/distance002.png)
+
 ##照度を取得
 light.html
 ```html
