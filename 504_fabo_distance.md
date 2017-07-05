@@ -11,6 +11,8 @@
 HTML/JavaScriptのサンプルは`/sample/gpio_distance/`フォルダに置かれています。
 distance.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
+![](/img/sample_distance.png)
+
 distance.html
 
 ```html
