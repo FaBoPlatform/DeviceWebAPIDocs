@@ -26,16 +26,17 @@ USBケーブルを差し込むと下記画面が表示されるので、赤丸�
 
 FaBo Device, Robo...ouse)のアイコンがアクティブ状態で表示されれば認識成功です!
 
+![](/img/robotsetting006.png)
+
 ## スマートフォンをRobotCarにマウント
 
 スマートフォンをRobot Carにマウントします。
 
-![](/img/robotsetting006.png)
+![](/img/robotsetting007.png)
+
 
 ## 動作確認
 
-
-![](/img/robotsetting007.png)
 Robo...ouse)のアイコンを選択します。
 
 ![](/img/robotsetting008.png)

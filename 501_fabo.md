@@ -1,17 +1,5 @@
 # FaBo Pluginの設定
 
-## FaBo Pluginを有効にする
-
-Arduino Uno とスマートフォンをUSB Host ケーブルで接続します。ArduinoにFirmataをインストールしてからスマートフォンに接続してください。
-
-![](./img/usb001.png)
-
-![](./img/usb002.png)
-
-以下の写真のようになれば、FaBo PluginとArduinoは正常に作動しています。
-
-![](./img/usb003.png)
-
 ## 動作確認
 
 FaBoのLED Brickを以下の写真のようにD2に接続します。
