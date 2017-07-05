@@ -7,7 +7,7 @@
   * [103.開発に必要なソフトウェア](pc.md)
   * [104.教材のダウンロード](docs.md)
 * 200.DeviceWebAPIManagerの設定
-  * [201.DeviceWebAPI Managerの設定](manager.md)
+  * [201.DeviceWebAPI Managerの設定](201_manager.md)
   * [202.DeviceWebAPI Managerの生存確認](available.md)
   * [203.既成のサンプルアプリで動作確認](webapp.md)
   * [204.setting.jsの設定](setting.md)
