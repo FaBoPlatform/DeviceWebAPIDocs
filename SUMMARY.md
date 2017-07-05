@@ -13,12 +13,13 @@
   * [204.Developer Tool](204_devtool.md)
   * [205.setting.jsの設定](205_setting.md)
 * 300.Host基礎
-  * [301.バイブレーション](host_vibration.md)
-  * [302.写真を撮影する](host_takepic.md)
-  * [303.プレビューを開始](host_preview.md)
+  * [301.バイブレーション](301_host_vibration.md)
+  * [302.写真を撮影する](302_host_takepic.md)
+  * [303.プレビューを開始](303_host_preview.md)
 * 400.Robotを操作する
-  * [401.Robot操作の基礎](robot_basic.md)
-  * [401.Robot操作のサンプル](robot_sample.md)
+  * [401.Robotカーへの接続](401_robot_setting.md)
+  * [402.Robot操作の基礎](402_robot_basic.md)
+  * [403.Robot操作のサンプル](403_robot_sample.md)
 * 500.FaBo基礎
   * [501.FaBo Pluginの接続](fabo.md)
   * [502.FaBo Pluginの利用許可](permission.md)
