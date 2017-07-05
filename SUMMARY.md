@@ -2,10 +2,10 @@
 
 * [はじめに](README.md)
 * 100.教材の準備
-  * [101.サンプルのダウンロード](sample.md)
-  * [102.アプリのダウンロード](app.md)
-  * [103.開発に必要なソフトウェア](pc.md)
-  * [104.教材のダウンロード](docs.md)
+  * [101.開発に必要なソフトウェア](101_pc.md)
+  * [102.アプリのダウンロード](102_app.md)
+  * [103.教材のダウンロード](103_docs.md)
+  * [104.サンプルのダウンロード](104_sample.md)
 * 200.DeviceWebAPIManagerの設定
   * [201.DeviceWebAPI Managerの設定](201_manager.md)
   * [202.DeviceWebAPI Managerの生存確認](202_available.md)
