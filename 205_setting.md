@@ -1,11 +1,35 @@
 # setting.jsの設定
 
-DeviceWebAPIにアクセスするために必要な要素として
+## 本項目で使用するページ
 
-* DeviceWebAPI Managerが起動しているデバイスのIPアドレス
-* DeviceWebAPI Managerのport番号
-* Host Device PluginのServiceId
-* FaBo Device PluginのServiceId
+|Web名|URL|
+|:--|:--|
+| sample.zip | http://www.fabo.io/deviceconnect/js/sample.zip |
+| JSON FORMATTER & VALIDATOR | https://jsonformatter.curiousconcept.com/ |
+
+## 設定する項目
+
+[http://www.fabo.io/deviceconnect/js/sample.zip](sample.zip)をダウンロードし、解凍します。
+
+![](/img/samplezip001.png)
+
+sample/lib/setting.jsをSublime textで開き、設定値を自分の環境に書き直します。
+
+```javascript
+var gpioId = "gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
+var hostId = "Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
+var mouseId = "mouse_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
+var ip = "192.168.0.68";
+var port = "4035";
+```
+
+|Web名|URL|
+|:--|:--|
+|gpioId| Gpio Device PluginのServiceId |
+|hostId| Host Device PluginのServiceId |
+|mouseId| Robot Mouse Device Plugin ServiceId |
+|ip| DeviceWebAPI Managerが起動しているデバイスのIPアドレス|
+|port|DeviceWebAPI Managerのport番号|
 
 の4つになります。
 
@@ -40,14 +64,3 @@ FaBo Pluginは、gpio_service_id.######で始まるIDです。Host Pluginは、H
 
 > {"online":true,"scopes":["driveController","serviceInformation"],"id":"mouse_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org","name":"Robot Car (Mouse)","type":"Unknown"}
 
-## setting.jsへの反映
-
-sample/lib/setting.jsをSublime textで開き、設定値を自分の環境に書き直します。
-
-```javascript
-var faboId = "gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
-var hostId = "Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org";
-var mouseId = "mouse_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org";
-var ip = "192.168.0.68";
-var port = "4035";
-```
