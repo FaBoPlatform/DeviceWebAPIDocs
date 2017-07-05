@@ -37,7 +37,7 @@ function arduino_map(x, in_min, in_max, out_min, out_max){
 
 function distance() {
     var valueElement = document.getElementById("value");
-    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/analog/A0?serviceId=" + faboId;
+    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/analog/A0?serviceId=" + gpioId;
     console.log(uri);
     dConnect.get(uri, null, function(json) {
         console.log(json);
