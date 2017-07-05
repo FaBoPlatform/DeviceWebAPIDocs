@@ -25,6 +25,8 @@
 HTML/JavaScriptのサンプルは`/sample/robot_sample/`フォルダに置かれています。
 controller.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
+![](./img/robotsample001.png)
+
 controller.html
 
 ```html
@@ -103,3 +105,13 @@ function move(speed) {
     });
 }
 ```
+
+## 実際の操作
+
+controller.htmlをブラウザで開くと，以下のような画面が開く．
+
+![](./img/controller01.png)
+
+このボタンなどを押すことで，ラジコンカーを実際に操作できる．以下はコントローラーの各ボタンなどの役割である．
+
+![](./img/controller02.png)
