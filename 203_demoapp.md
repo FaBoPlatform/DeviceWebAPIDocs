@@ -2,7 +2,7 @@
 
 {%youtube%}a9XCYeleZGc{%endyoutube%}
 
-[http://deviceconnectusers.github.io/manager/](http://deviceconnectusers.github.io/manager/)にデモAppがあります。
+[http://deviceconnectusers.github.io/manager/](http://deviceconnectusers.github.io/manager/)にDEMOアプリがあります。
 
 [202.DeviceWebAPI Managerの生存確認](202_available.md)でメモしたIPアドレスを、URLの一番最後に、`?ip=メモしたIPアドレス`の形式で追加し、アクセスします。
 
