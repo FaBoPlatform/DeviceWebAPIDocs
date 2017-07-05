@@ -1,5 +1,7 @@
 # DeviceWebAPI Managerの生存確認
 
+{%youtube%}T3VXdTadj0c{%endyoutube%}
+
 ## IPアドレスの確認
 
 設定>設定の項目のHostとPort番号をメモしておきます。
