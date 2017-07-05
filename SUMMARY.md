@@ -10,7 +10,8 @@
   * [201.DeviceWebAPI Managerの設定](201_manager.md)
   * [202.DeviceWebAPI Managerの生存確認](202_available.md)
   * [203.DEMOアプリで動作確認](203_demoapp.md)
-  * [204.setting.jsの設定](setting.md)
+  * [204.Developer Tool](204_devtool.md)
+  * [205.setting.jsの設定](205_setting.md)
 * 300.Host基礎
   * [301.バイブレーション](host_vibration.md)
   * [302.写真を撮影する](host_takepic.md)
