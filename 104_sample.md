@@ -4,4 +4,4 @@
 
 | 項目 | 概要 |
 |:--|:--| 
-| サンプル | <a href="/sample/sample.zip">sample.zip</a> |
+| サンプル | [sample.zip](http://docs.fabo.io/docs/sample.zip) |
