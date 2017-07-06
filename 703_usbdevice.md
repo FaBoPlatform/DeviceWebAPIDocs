@@ -1,4 +1,4 @@
-# USB Deviceの認識
+# 7.3 USB Deviceの認識
 
 ## USB Host非対応の機種
 

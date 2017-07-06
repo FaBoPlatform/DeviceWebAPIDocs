@@ -1,4 +1,4 @@
-# 203.DEMOアプリで動作確認
+# 2.3 DEMOアプリで動作確認
 
 {%youtube%}a9XCYeleZGc{%endyoutube%}
 

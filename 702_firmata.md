@@ -1,4 +1,4 @@
-# Firmataのインストール
+# 7.2 Firmataのインストール
 
 ## Firmataのインストール
 

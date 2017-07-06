@@ -1,4 +1,4 @@
-# setting.jsの設定
+# 2.4 setting.jsの設定
 
 ## 本項目で使用するページ
 

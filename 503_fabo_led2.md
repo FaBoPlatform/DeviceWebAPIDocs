@@ -1,4 +1,4 @@
-# 503.LEDの操作(JavaScript)
+# 5.3 LEDの操作(JavaScript)
 
 ## LEDの操作
 
