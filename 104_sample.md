@@ -4,4 +4,4 @@
 
 | 項目 | 概要 |
 |:--|:--| 
-| サンプル | [sample.zip](/sample/sample.zip) |
+| サンプル | <a href="/sample/sample.zip">sample.zip</a> |
