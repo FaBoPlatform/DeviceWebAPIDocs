@@ -23,10 +23,10 @@
 * 5.FaBo基礎
   * [5.1 FaBo Pluginの接続](501_fabo.md)
   * [5.2 LEDの操作\(アドレスバー\)](502_fabo_led1.md)
-  * [5.3 LEDの操作\(プログラム\)](503_fabo_led2.md)
+  * [5.3 LEDの操作\(JavaScript\)](503_fabo_led2.md)
   * [5.4 距離を取得](504_fabo_distance.md)
-  * [5.5 FaBo 温度を取得](505_fabo_temperature.md)
-  * [5.6 FaBo 照度を取得](506_light.md)
+  * [5.5 温度を取得](505_fabo_temperature.md)
+  * [5.6 照度を取得](506_light.md)
 * 6.FaBo仮想デバイス
   * [6.1 3軸加速度センサーの登録](601_virtual_3axis.md)
   * [6.2 3軸加速度センサーの取得](602_virtual_3axis_regist.md)
