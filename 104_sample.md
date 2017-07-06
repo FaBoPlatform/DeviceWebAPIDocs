@@ -4,4 +4,4 @@
 
 | 項目 | 概要 |
 |:--|:--| 
-| サンプル | [sample.zip](http://docs.fabo.io/sample/sample.zip) |
+| サンプル | [sample.zip](http://docs.fabo.io/devicewebapi/sample/sample.zip) |
