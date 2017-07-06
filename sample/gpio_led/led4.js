@@ -1,5 +1,5 @@
 function LEDOn() {
-    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + faboId;
+    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
     dConnect.put(uri, header, function(json) {
@@ -10,7 +10,7 @@ function LEDOn() {
 }
 
 function LEDOff() {
-    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + faboId;
+    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
     dConnect.delete(uri, header, function(json) {
@@ -21,7 +21,7 @@ function LEDOff() {
 }
 
 function LEDChange(value) {
-    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + faboId;
+    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = "value="+value;
     dConnect.post(uri, header, data, function(json) {
@@ -32,7 +32,7 @@ function LEDChange(value) {
 }
 
 function LEDStatus() {
-    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + faboId;
+    var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     dConnect.get(uri, header, function(json) {
         console.log(json);
