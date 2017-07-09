@@ -44,23 +44,11 @@ var mouseId = "mouse_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.devic
 
 ## SeviceIdの取得
 
-DeviceWebAPIでは、各プラグインにアクセスするためにServiceIdが必要となります。
+DeviceWebAPIでは、各機能にアクセスするためにServiceIdが必要となります。
 ServiceIdの一覧は、/gotapi/serviceDiscoveryで取得する事が可能です。
 
-> http://メモしたIP:メモしたPort/gotapi/serviceDiscovery
+各機能のServiceIdは、Checkツールを用いておこないます。
 
-![](./img/serviceid_fabo.png)
+http://www.fabo.io/tool/
 
-![](./img/serviceid_host.png)
-
-![](./img/serviceid_mouse.png)
-
-今回、FaBo PluginとHost PluginのServiceIdを取得します。
-GPIO Pluginは、gpio_service_id.######で始まるIDです。Host Pluginは、Host.####で始まるIDになります。
-
-> {"online":true,"scopes":["vibration","settings","phone","canvas","serviceInformation","keyEvent","mediaPlayer","connect","geolocation","light","notification","touch","file","proximity","deviceOrientation","fileDescriptor","mediaStreamRecording","battery"],"id":"Host.ebc9a9ec2354491f929dd4b25abccb6.localhost.deviceconnect.org","name":"Host"}
-
-> {"online":true,"scopes":["driveController","gpio","serviceInformation"],"id":"gpio_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org","name":"FaBo Device","type":"Unknown"}
-
-> {"online":true,"scopes":["driveController","serviceInformation"],"id":"mouse_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.deviceconnect.org","name":"Robot Car (Mouse)","type":"Unknown"}
-
+`gpioId`, `hostId`, `mouseId`をコピーし、/lib/setting.jsに反映し、保存します。

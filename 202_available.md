@@ -12,7 +12,9 @@
 
 ## DeviceWebAPI Managerの生存確認
 
-> http://192.168.0.10:4035/gotapi/availability
+DeviceWebAPI Managerの生存確認は、Checkツールを用いておこないます。
+
+http://www.fabo.io/tool/
 
 ### 接続ができた場合
 ![](./img/available001.png)
