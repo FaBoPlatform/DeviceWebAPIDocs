@@ -44,4 +44,4 @@ ServiceIdの一覧は、/gotapi/serviceDiscoveryで取得する事が可能で�
 
 http://www.fabo.io/tool/
 
-`gpioId`, `hostId`, `mouseId`をコピーし、/lib/setting.jsに反映し、保存します。
+`gpioId`, `hostId`, `mouseId`をコピーし、/lib/setting.jsに反映し、保存しまｓ

@@ -1,5 +1,6 @@
 # 2.1 DeviceWebAPI Managerの設定
 
+{%youtube%}z1eHF4mCfLI{%endyoutube%}
 
 DeviceWebAPI Managerを起動します。
 
