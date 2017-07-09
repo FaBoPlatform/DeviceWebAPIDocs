@@ -1,4 +1,4 @@
-# 2.5 Developer Tool
+# 2.6 Developer Tool
 
 {%youtube%}4FEDxTsAy0E{%endyoutube%}
 

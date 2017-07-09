@@ -11,8 +11,9 @@
   * [2.1 DeviceWebAPI Managerの設定](201_manager.md)
   * [2.2 DeviceWebAPI Managerの生存確認](202_available.md)
   * [2.3 DEMOアプリで動作確認](203_demoapp.md)
-  * [2.4 setting.jsの設定](204_setting.md)
-  * [2.5 Developer Tool](205_devtool.md)
+  * [2.4 ATOMのインストール](204_atom.md)
+  * [2.5 setting.jsの設定](205_setting.md)
+  * [2.6 Developer Tool](206_devtool.md)
 * 3.Host基礎
   * [3.1 バイブレーション](301_host_vibration.md)
   * [3.2 写真を撮影する](302_host_takepic.md)
