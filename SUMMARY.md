@@ -6,6 +6,7 @@
   * [1.2 アプリのダウンロード](102_app.md)
   * [1.3 教材のダウンロード](103_docs.md)
   * [1.4 サンプルのダウンロード](104_sample.md)
+  * [1.5 Checkツール](105_tool.md)
 * 2.DeviceWebAPIManagerの設定
   * [2.1 DeviceWebAPI Managerの設定](201_manager.md)
   * [2.2 DeviceWebAPI Managerの生存確認](202_available.md)
