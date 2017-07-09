@@ -27,5 +27,13 @@ ATOMアイコンをクリックし、ATOMを起動します。
 
 ![](/img/atom101.png)
 
-## ATOMの画面
+## Sample.zipを開く
+
+[http://docs.fabo.io/devicewebapi/104_sample.html](sample.zip)をダウンロードして、解凍します。
+
+Macの場合は、クリックする事で解凍できますが、Windowsの場合は、クリックだけでは解凍されません。
+
+Windowsユーザは下記の操作が必要です。
+
+
 
