@@ -1,6 +1,5 @@
 # 2.3 DEMOアプリで動作確認
 
-{%youtube%}a9XCYeleZGc{%endyoutube%}
 
 [http://deviceconnectusers.github.io/manager/](http://deviceconnectusers.github.io/manager/)にDEMOアプリがあります。
 

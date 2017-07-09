@@ -1,6 +1,5 @@
 # 2.2 DeviceWebAPI Managerの生存確認
 
-{%youtube%}T3VXdTadj0c{%endyoutube%}
 
 ## IPアドレスの確認
 

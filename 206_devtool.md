@@ -1,6 +1,5 @@
 # 2.6 Developer Tool
 
-{%youtube%}4FEDxTsAy0E{%endyoutube%}
 
 HTML5アプリの開発では、Chromeに内包されているDeveloper Toolを用いてデバックします。
 
