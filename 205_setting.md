@@ -1,12 +1,5 @@
 # 2.5 setting.jsの設定
 
-## 本項目で使用するページ
-
-|Web名|URL|
-|:--|:--|
-| sample.zip | http://www.fabo.io/deviceconnect/js/sample.zip |
-| JSON FORMATTER & VALIDATOR | https://jsonformatter.curiousconcept.com/ |
-
 ## 設定する項目
 
 [http://www.fabo.io/deviceconnect/js/sample.zip](sample.zip)をダウンロードし、解凍します。
