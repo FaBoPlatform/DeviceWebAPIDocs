@@ -2,7 +2,7 @@ function arduino_map(x, in_min, in_max, out_min, out_max){
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 }
 
-function light() {
+function ambient() {
     var valueElement = document.getElementById("value");
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/analog/A0?serviceId=" + gpioId;
     console.log(uri);
