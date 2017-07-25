@@ -8,10 +8,32 @@
     <body>
         <input type="button" value="プレビューを開始" onclick="preview_start();"/><br />
         <input type="button" value="プレビューを終了" onclick="preview_stop();"/><br />
-        <img id="image" width="500"/><br />
-        <input type="button" value="↑" onclick="move(1);"/><br />
-        <input type="button" value="■" onclick="move(0);"/><br />
-        <input type="button" value="↓" onclick="move(-1);"/><br />
-        <input type="range" min="-360" max="360" step="10" onchange="changeAngle(this.value);">
+        <table>
+            <tr>
+            <td>
+                <img id="image" width="500"/><br />
+            </td>
+            <td>
+                <table>
+                    <tr>
+                       <td>
+                           <input type="button" value="↑" onclick="run_forward();"/><br />
+                           <input type="button" value="↓" onclick="run_back();"/><br />
+                        </td>
+                        <td>
+                            <input type="range" min="-360" max="360" step="10" onchange="change_angle(this.value);">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <center>
+                                <input type="button" value="[   STOP   ]" onclick="stop();"/>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            </tr>
+        </table>
     </body>
 </html>
