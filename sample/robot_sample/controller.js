@@ -1,6 +1,7 @@
 var BIAS = 1; // 左右のスピードのバイアス値(ここを調整し左右のモータの速さの調整をする)
 var SPEED = 1; // スピードの初期値
 var now_speed = 0; // 現在のスピードを格納
+var angle = 0;
 
 function preview_start() {
     var imageElement = document.getElementById("image");
@@ -38,18 +39,23 @@ function preview_stop() {
 
 
 function change_angle(angle) {
+
     console.log(now_speed);
     console.log(angle);
     move(now_speed, angle);
 }
 
 function run_forward() {
-    move(SPEED, 0);
+    angle = document.getElementById("angle").value;;
+    console.log(angle);
+    move(SPEED, angle);
     now_speed = SPEED;
 }
 
 function run_back() {
-    move(-SPEED, 0);
+    angle = document.getElementById("angle").value;
+    console.log(angle);
+    move(-SPEED, angle);
     now_speed = -SPEED;
 }
 
