@@ -30,7 +30,7 @@ led1.html
         <script src="led1.js" type="text/javascript"></script>
     </head>
     <body>
-        <input type="button" value="LEDを点灯" onclick="LEDOn();"/><br />
+        <input type="button" value="LEDを点灯" onclick="ledOn();"/><br />
     </body>
 </html>
 ```
@@ -38,11 +38,11 @@ led1.html
 led1.js
 
 ```javascript
-function LEDOn() {
+function ledOn() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
-    dConnect.put(uri, header, function(json) {
+    dConnect.put(uri, header, data, function(json) {
         console.log(json);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
@@ -65,8 +65,8 @@ led2.html
         <script src="led2.js" type="text/javascript"></script>
     </head>
     <body>
-        <input type="button" value="LEDを点灯" onclick="LEDOn();"/><br />
-        <input type="button" value="LEDを消灯" onclick="LEDOff();"/><br />
+        <input type="button" value="LEDを点灯" onclick="ledOn();"/><br />
+        <input type="button" value="LEDを消灯" onclick="ledOff();"/><br />
     </body>
 </html>
 ```
@@ -74,22 +74,22 @@ led2.html
 led2.js
 
 ```javascript
-function LEDOn() {
+function ledOn() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
-    dConnect.put(uri, header, function(json) {
+    dConnect.put(uri, header, data, function(json) {
         console.log(json);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });
 }
 
-function LEDOff() {
+function ledOff() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
-    dConnect.delete(uri, header, function(json) {
+    dConnect.delete(uri, header, data, function(json) {
         console.log(json);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
@@ -112,10 +112,10 @@ led3.html
         <script src="led3.js" type="text/javascript"></script>
     </head>
     <body>
-        <input type="button" value="LEDを点灯" onclick="LEDOn();"/><br />
-        <input type="button" value="LEDを消灯" onclick="LEDOff();"/><br />
-        <input type="button" value="LEDを点灯" onclick="LEDChange(1);"/><br />
-        <input type="button" value="LEDを消灯" onclick="LEDChange(0);"/><br />
+        <input type="button" value="LEDを点灯" onclick="ledOn();"/><br />
+        <input type="button" value="LEDを消灯" onclick="ledOff();"/><br />
+        <input type="button" value="LEDを点灯" onclick="ledChange(1);"/><br />
+        <input type="button" value="LEDを消灯" onclick="ledChange(0);"/><br />
     </body>
 </html>
 ```
@@ -123,7 +123,7 @@ led3.html
 led3.js
 
 ```javascript
-function LEDOn() {
+function ledOn() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
@@ -134,7 +134,7 @@ function LEDOn() {
     });
 }
 
-function LEDOff() {
+function ledOff() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
@@ -145,7 +145,7 @@ function LEDOff() {
     });
 }
 
-function LEDChange(value) {
+function ledChange(value) {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = "value="+value;
@@ -172,10 +172,10 @@ led4.html
         <script src="led4.js" type="text/javascript"></script>
     </head>
     <body>
-        <input type="button" value="LEDを点灯" onclick="LEDOn();"/><br />
-        <input type="button" value="LEDを消灯" onclick="LEDOff();"/><br />
-        <input type="button" value="LEDを点灯" onclick="LEDChange(1);"/><br />
-        <input type="button" value="LEDを消灯" onclick="LEDChange(0);"/><br />
+        <input type="button" value="LEDを点灯" onclick="ledOn();"/><br />
+        <input type="button" value="LEDを消灯" onclick="ledOff();"/><br />
+        <input type="button" value="LEDを点灯" onclick="ledChange(1);"/><br />
+        <input type="button" value="LEDを消灯" onclick="ledChange(0);"/><br />
         <input type="button" value="LEDの状態を取得" onclick="LEDStatus();"/><br />
     </body>
 </html>
@@ -184,29 +184,29 @@ led4.html
 led4.js
 
 ```javascript
-function LEDOn() {
+function ledOn() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
-    dConnect.put(uri, header, function(json) {
+    dConnect.put(uri, header, data, function(json) {
         console.log(json);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });
 }
 
-function LEDOff() {
+function ledOff() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = null;
-    dConnect.delete(uri, header, function(json) {
+    dConnect.delete(uri, header, data, function(json) {
         console.log(json);
     }, function(errorCode, errorMessage) {
         console.log(errorMessage);
     });
 }
 
-function LEDChange(value) {
+function ledChange(value) {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     var data = "value="+value;
@@ -217,7 +217,7 @@ function LEDChange(value) {
     });
 }
 
-function LEDStatus() {
+function ledStatus() {
     var uri = "http://" + ip + ":" + port + "/gotapi/gpio/digital/D2?serviceId=" + gpioId;
     var header = null;
     dConnect.get(uri, header, function(json) {
