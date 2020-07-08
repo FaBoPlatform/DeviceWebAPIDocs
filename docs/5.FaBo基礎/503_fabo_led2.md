@@ -16,7 +16,7 @@
 HTML/JavaScriptのサンプルは`/sample/gpio_led/`フォルダに置かれています。
 led1.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
-![](/img/sample_led.png)
+![](../img/sample_led.png)
 
 
 led1.html

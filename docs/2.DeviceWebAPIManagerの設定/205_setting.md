@@ -2,9 +2,9 @@
 
 ## 設定する項目
 
-[http://www.fabo.io/deviceconnect/js/sample.zip](sample.zip)をダウンロードし、解凍します。
+[sample_sjis.zip](https://github.com/FaBoPlatform/DeviceWebAPIDocs/raw/master/sample_sjis/sample_sjis.zip)をダウンロードし、解凍します。
 
-![](/img/samplezip001.png)
+![](../img/samplezip001.png)
 
 sample/lib/setting.jsをSublime textで開き、設定値を自分の環境に書き直します。
 
@@ -28,9 +28,9 @@ var mouseId = "mouse_service_id.4de8d7e836faab7ad1da5a7ea7737963.localhost.devic
 
 ## IPとPortの確認
 
-![](./img/setting001.png)
+![](../img/setting001.png)
 
-![](./img/setting005.png)
+![](../img/setting005.png)
 
 [全プラグインを再起動する]項目の下に表示されているのが、IPアドレスとPort番号になります。
 これをメモしておきます。
@@ -42,6 +42,6 @@ ServiceIdの一覧は、/gotapi/serviceDiscoveryで取得する事が可能で�
 
 各機能のServiceIdは、Checkツールを用いておこないます。
 
-http://www.fabo.io/tool/
+[https://tool.fabo.io/devicewebapi/index.html](https://tool.fabo.io/devicewebapi/index.html)
 
 `gpioId`, `hostId`, `mouseId`をコピーし、/lib/setting.jsに反映し、保存しまｓ

@@ -4,4 +4,4 @@
 
 | 項目 | 概要 |
 |:--|:--| 
-| チェックツール | http://www.fabo.io/tool/ |
+| チェックツール | [https://tool.fabo.io/devicewebapi/index.html](https://tool.fabo.io/devicewebapi/index.html) |

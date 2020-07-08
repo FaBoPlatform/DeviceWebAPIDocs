@@ -2,9 +2,9 @@
 
 温度センサーをA0のPINに差し込みます。
 
-![](./img/temperature001.jpg)
+![](../img/temperature001.jpg)
 
-![](./img/temperature002.png)
+![](../img/temperature002.png)
 
 ## 温度を取得
 

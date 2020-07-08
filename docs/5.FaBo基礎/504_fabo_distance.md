@@ -2,16 +2,16 @@
 
 距離センサーをA0のPINに差し込みます。
 
-![](./img/distance001.png)
+![](../img/distance001.png)
 
-![](./img/distance002.png)
+![](../img/distance002.png)
 
 ## 距離を取得
 
 HTML/JavaScriptのサンプルは`/sample/gpio_distance/`フォルダに置かれています。
 distance.htmlをChrome Browserにドラッグ&ドロップし、実行します。
 
-![](/img/sample_distance.png)
+![](../img/sample_distance.png)
 
 distance.html
 
